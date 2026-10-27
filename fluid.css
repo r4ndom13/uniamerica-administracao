@@ -1,0 +1,87 @@
+/* Softer geometry: round controls, individual cards and organic image contours. */
+.button,.hero-copy>.button,.about-cta{border-radius:999px;padding-left:25px;padding-right:16px;gap:16px}
+.button>span{border-left:0;padding-left:0;background:var(--black);color:var(--green);border-radius:50%;width:33px;height:33px;display:grid;place-items:center;flex-shrink:0;font-size:25px}
+.about-cta>span{background:var(--green);color:var(--black)}
+.hero-art,.hero-art>img,.hero-art:after,.art-grid{border-radius:48% 48% 34% 18% / 38% 40% 28% 24%}
+.floating-note{border-radius:25px;padding:16px 18px}.floating-note>.icon{border-radius:50%}
+.art-tag{border-radius:26px 26px 38px 12px;padding:19px 23px}
+.benefits-grid{background:transparent;border:0;border-radius:0;overflow:visible;gap:18px}
+.benefit{border:1px solid #ffffff20;background:linear-gradient(145deg,#121c17,#0c1110);border-radius:36px 36px 60px 36px;padding:32px}
+.benefit:nth-child(2n){border-radius:36px 60px 36px 36px}
+.benefit:nth-child(3n){border-radius:60px 36px 36px 36px}
+.benefit>.icon-tile,.icon-tile,.practice-icon{border-radius:50%}
+.paths .path-card{border-radius:36px 36px 64px 36px;padding:30px;background:linear-gradient(150deg,#142119,#101513)}
+.paths .path-card:nth-child(2){border-radius:60px 36px 36px 36px}
+.paths .path-card:nth-child(3){border-radius:36px 60px 36px 36px}
+.path-card:before{border-radius:inherit}
+.practice{border-radius:72px 24px 72px 24px;isolation:isolate}
+.practice:after{content:'';position:absolute;width:310px;height:230px;border:1px solid #080a0b24;right:-85px;top:-110px;border-radius:50%;transform:rotate(-25deg);pointer-events:none;z-index:-1}
+.subjects details{border:1px solid #ffffff20;background:#101713;border-radius:26px;margin:12px 0;padding:0 24px}
+.subjects summary>span{border-radius:50%}
+.course-strip{border-radius:44px 24px 44px 24px;padding:38px}
+.coordinator{border-radius:72px 24px 24px 72px}
+.portrait-frame{border-radius:44% 44% 26% 22% / 30% 34% 30% 32%}
+.coordinator-portrait:before{border-radius:44% 44% 26% 22% / 30% 34% 30% 32%}
+.portrait-tag{border-radius:999px;padding:17px 22px}
+.award{border-radius:40px 24px 56px 24px;padding:32px}
+.video-frame{border-radius:40px}
+.next{position:relative;border-radius:72px 24px 72px 24px;overflow:hidden;isolation:isolate}
+.next:after{content:'';position:absolute;left:-125px;bottom:-160px;width:370px;height:370px;border:1px solid #080a0b20;border-radius:50%;pointer-events:none;z-index:-1}
+.conversion{border-radius:44px 28px 52px 28px;box-shadow:10px 12px 0 #080a0b12;padding:38px}
+.conversion .button{padding-left:22px;padding-right:13px}
+.faq details{border:1px solid #ffffff20;border-radius:25px;background:#101713;padding:0 24px;margin:12px 0}
+.faq summary{min-height:80px}
+.faq details p{padding-bottom:5px}
+@media(min-width:701px) and (max-width:1050px){.paths .path-card{padding:26px 22px}.benefit{padding:27px 22px}.conversion{padding:28px}.award{padding:26px 22px}.floating-note{padding:12px}.course-strip{padding:30px}}
+@media(max-width:700px){
+  .hero-copy>.button,.about-cta{padding:14px 14px 14px 23px;min-height:59px}
+  .button>span{width:30px;height:30px;padding-left:0;font-size:23px}
+  .hero-art,.hero-art>img,.hero-art:after,.art-grid{border-radius:48% 48% 30% 22% / 36% 40% 25% 28%}
+  .hero-art{width:calc(100% - 18px)}
+  .floating-note{border-radius:20px;padding:12px 14px;left:-10px}
+  .art-tag{border-radius:20px 20px 32px 10px;padding:14px 17px}
+  .benefits-grid{gap:12px}
+  .benefit{padding:24px 17px;border-radius:28px 28px 42px 28px}
+  .benefit:nth-child(2n){border-radius:28px 42px 28px 28px}
+  .benefit:nth-child(3n){border-radius:42px 28px 28px 28px}
+  .benefit>.icon-tile{border-radius:50%}
+  .benefit h3{font-size:20px;margin-top:22px}
+  .paths{gap:17px}
+  .paths .path-card{padding:28px 25px;border-radius:32px 32px 58px 32px}
+  .paths .path-card:nth-child(2){border-radius:54px 32px 32px 32px}
+  .paths .path-card:nth-child(3){border-radius:32px 54px 32px 32px}
+  .icon-tile{border-radius:50%;height:46px;width:46px}
+  .paths h3{font-size:30px;line-height:1.12}
+  .practice{border-radius:44px 16px 56px 16px;padding-top:60px;padding-bottom:60px}
+  .practice:after{width:210px;height:170px;right:-80px;top:-100px}
+  .practice-icon{border-radius:50%}
+  .subjects details{border-radius:23px;padding:0 18px;margin:12px 0}
+  .subjects summary{min-height:88px;gap:11px;font-size:15px}
+  .subjects summary>span{border-radius:50%;width:27px;height:27px}
+  .subjects details p{font-size:14px;line-height:1.55}
+  .course-strip{border-radius:36px 23px 46px 23px;padding:29px}
+  .coordinator{border-radius:56px 18px 18px 56px;padding-top:65px;padding-bottom:65px}
+  .coordinator-portrait:before,.portrait-frame{border-radius:46% 42% 26% 22% / 30% 34% 26% 30%}
+  .portrait-frame{aspect-ratio:4/4.5}
+  .portrait-tag{border-radius:999px;padding:13px 15px;left:-9px;bottom:30px}
+  .portrait-corner{right:-17px}
+  .award{border-radius:34px 23px 48px 23px;padding:28px 22px}
+  .video-frame{border-radius:30px}
+  .video-caption{bottom:18px;left:20px;right:20px}
+  .next{border-radius:50px 18px 62px 18px;padding-top:64px;padding-bottom:64px}
+  .conversion{border-radius:36px 25px 46px 25px;padding:30px 25px}
+  .conversion .button{border-radius:999px;padding:14px 12px 14px 19px;gap:9px;font-size:12px;min-height:58px}
+  .conversion .button>span{padding:0;width:27px;height:27px}
+  .faq details{border-radius:24px;padding:0 20px;margin:13px 0}
+  .faq summary{font-size:15px;line-height:1.4;min-height:88px;gap:12px}
+  .faq details p{font-size:14px;line-height:1.55;padding-bottom:2px}
+  .mobile-sticky{border-radius:999px;margin:12px;padding:13px 15px 13px 22px;min-height:59px;font-size:12px}
+  .mobile-sticky>span{display:grid;place-items:center;border-radius:50%;background:var(--black);color:var(--green);width:30px;height:30px;font-size:24px}
+}
+@media(max-width:350px){.benefit{padding:25px 22px}.benefit h3{font-size:22px;margin-top:4px}.conversion{padding:28px 20px}.conversion .button{font-size:11px;padding-left:15px}.faq details{padding:0 16px}}
+
+/* Scroll position drives rotation directly; copy and controls stay upright. */
+.hero-art>.orbit,.hero-art:hover>.orbit{transform:rotate(calc(-25deg + var(--scroll-turn,0deg)));transition:none}
+.art-stamp>.icon,.portrait-corner>.icon,.award-mark>.icon,.learning-seal>.icon,.ticker-unit>.icon{transform:rotate(var(--scroll-turn,0deg));transform-origin:center;transition:none}
+@media(min-width:701px) and (max-width:1050px){.hero-art>.orbit{width:80%;left:10%;height:40%;top:30%}}
+@media(prefers-reduced-motion:reduce){.hero-art>.orbit,.hero-art:hover>.orbit{transform:rotate(-25deg)!important}.art-stamp>.icon,.portrait-corner>.icon,.award-mark>.icon,.learning-seal>.icon,.ticker-unit>.icon{transform:none!important}}
