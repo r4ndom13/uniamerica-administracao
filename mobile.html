@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,follow">
+  <meta name="theme-color" content="#080a0b">
+  <title>Administração na tela do celular | UniAmérica</title>
+  <meta name="description" content="Navegue pela versão mobile da campanha de Administração no seu notebook.">
+  <link rel="stylesheet" href="mobile-view.css">
+  <script src="mobile-view.js" defer></script>
+</head>
+<body>
+  <div class="viewer">
+    <header class="viewer-bar">
+      <a class="viewer-brand" id="full-site" href="index.html" aria-label="Abrir o site de Administração"><img src="assets/logo.png" alt="Descomplica UniAmérica" width="184" height="36"></a>
+      <div class="viewer-title"><span aria-hidden="true"></span> VERSÃO MOBILE</div>
+      <nav class="viewer-actions" aria-label="Opções de visualização">
+        <button id="fit-phone" type="button" aria-pressed="false" aria-controls="viewer-stage" hidden>Celular inteiro</button>
+        <a id="open-site" href="index.html">Abrir site <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+    <main class="viewer-stage" id="viewer-stage" aria-label="Site em formato de celular">
+      <div class="phone-space">
+        <div class="phone-frame">
+          <iframe id="mobile-site" src="index.html" title="Versão mobile de Administração da Descomplica UniAmérica" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+    <footer class="viewer-footer"><span class="scroll-symbol" aria-hidden="true">↓</span> Role dentro da tela para navegar.</footer>
+  </div>
+</body>
+</html>

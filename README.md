@@ -11,6 +11,12 @@ O site é estático: não exige instalação de dependências, compilação, ban
 - **Hospedagem tradicional:** envie todo o conteúdo desta pasta para a pasta pública do domínio, mantendo `index.html` na raiz.
 - **GitHub Pages:** nas configurações do repositório, selecione publicação pela branch `main`, pasta `/ (root)`.
 
+## Mobile no notebook
+
+Abra `mobile.html` para navegar pela LP em uma tela de celular no computador. O modo padrão preserva o tamanho legível do texto e adapta a altura da tela à janela. O botão **Celular inteiro** mostra a moldura completa, ajustada ao espaço disponível.
+
+A página usa `index.html` da mesma pasta, preservando os parâmetros da campanha e a seção indicada no link. No celular, o endereço encaminha para o site normal. Para a prévia local, use o servidor HTTP descrito abaixo.
+
 ## Prévia local
 
 Com Python instalado, execute na pasta do projeto:
