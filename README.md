@@ -24,8 +24,9 @@ Depois, abra `http://localhost:8080`.
 ## Arquivos principais
 
 - `index.html`: conteúdo da landing page.
-- `style.css`, `refinements.css`, `draft.css`, `fluid.css` e `contact.css`: estilos e adaptações responsivas.
+- `style.css`, `refinements.css`, `draft.css`, `fluid.css`, `contact.css`, `career.css` e `admissions.css`: estilos e adaptações responsivas.
 - `script.js`: interações, vídeo, faixa contínua e efeitos ligados à rolagem.
+- `admissions.js`: seletor de ingresso, painéis e contato por WhatsApp conforme a escolha. A opção é lembrada com sessionStorage durante a visita. Sem JavaScript, as três orientações permanecem disponíveis.
 - `assets/`: imagens e fontes utilizadas na página.
 - `motion/`: recursos de animação, com licença e créditos correspondentes.
 - `posts.html?p=1`, `?p=2` e `?p=3`: peças da campanha em HTML.
